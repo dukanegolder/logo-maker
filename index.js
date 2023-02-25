@@ -8,7 +8,7 @@ function svgPrompt() {
     .prompt([
       {
         type: "list",
-        message: "What shape would you like for your svg?",
+        message: "What shape would you like for logo?",
         name: "shape",
         choices: ["Circle", "Square", "Triangle"],
       },
