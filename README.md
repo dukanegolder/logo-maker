@@ -4,6 +4,8 @@
 
 ## Description
 
+This project was developed for the user to be able to make an SVG logo as easy and simple as possible. The user will just go through a series of questions in the node terminal and after those are answered it will generate a new SVG folder with the created logo.
+
 ## Table of Contents
 
 [Installation](#installation)
