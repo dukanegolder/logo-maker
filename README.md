@@ -14,6 +14,8 @@ This project was developed for the user to be able to make an SVG logo as easy a
 
 [License](#license)
 
+[Assets](#assets)
+
 ## Installation
 
 N/A
@@ -25,3 +27,7 @@ The user will run 'Node index.js' in the integrated terminal, once that is done 
 ## License
 
 MIT License https://opensource.org/license/mit-0/
+
+## Assets
+
+Video link - https://drive.google.com/file/d/1YVRq02wHCL2DtXAre0-Y8y1yrRE_pVWB/view
