@@ -19,7 +19,7 @@ function svgPrompt() {
         name: "backgroundColor",
         validate: function (input) {
           if (input === "") {
-            return `\x1b[31mPlease enter a color\x1b[0m`; 
+            return `\x1b[31mPlease enter a color\x1b[0m`;
           }
           return true;
         },
@@ -41,7 +41,7 @@ function svgPrompt() {
         message:
           "What would color would you like the text to be (you can use a color name or hexidecimal code)?",
         name: "textColor",
-       
+
         validate: function (input) {
           if (input === "") {
             return `\x1b[31mPlease enter a color\x1b[0m`;
@@ -49,21 +49,18 @@ function svgPrompt() {
           return true;
         },
       },
-
-   
     ])
     .then((data) => {
-     
       if (data.shape === "Triangle") {
-        const triangle = new Triangle(); 
-        triangle.backgroundColor = data.backgroundColor; 
-        triangle.svgText = data.svgText; 
-        triangle.textColor = data.textColor; /
+        const triangle = new Triangle();
+        triangle.backgroundColor = data.backgroundColor;
+        triangle.svgText = data.svgText;
+        triangle.textColor = data.textColor;
         fs.writeFile("triangle.svg", triangle.render(), (err) => {
           err
             ? console.error(err)
             : console.log("\x1b[32mGenerated triangle.svg\x1b[0m");
-        }); // generates the file, console logs in green text
+        });
       } else if (data.shape === "Circle") {
         const circle = new Circle();
         circle.backgroundColor = data.backgroundColor;
