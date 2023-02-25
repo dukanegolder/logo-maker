@@ -15,7 +15,7 @@ function svgPrompt() {
       {
         type: "input",
         message:
-          'What would color would you like the background to be? you can use a color name OR hexidecimal code (please include "#" if using hex)',
+          "What would color would you like the background to be? You can use a color name or hexidecimal!",
         name: "backgroundColor",
         validate: function (input) {
           if (input === "") {
@@ -26,8 +26,7 @@ function svgPrompt() {
       },
       {
         type: "input",
-        message:
-          "Enter your text (note: you can enter up to three characters):",
+        message: "Please enter up to three numbers or letters. :",
         name: "svgText",
         validate: function (input) {
           if (input.length > 3) {
@@ -39,7 +38,7 @@ function svgPrompt() {
       {
         type: "input",
         message:
-          "What would color would you like the text to be (you can use a color name or hexidecimal code)?",
+          "What would color would you like the text to be? You can use a color name or hexidecimal!",
         name: "textColor",
 
         validate: function (input) {
