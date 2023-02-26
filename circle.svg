@@ -1,0 +1,4 @@
+<svg width="500px" height="500px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="150" stroke="black" fill="green" stroke-width="2" class="shape"/>
+        <text x="250" y="275" font-size="60" text-anchor="middle" fill="purple" font-family="verdana">DMG</text>
+        </svg>
